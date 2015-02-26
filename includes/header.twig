@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="template-header">
+<header class="template-header" id="case1" data-title="01) Bad: Logo and Company Name at the same time">
 
 	<div class="container-header">
 		<div class="company-details">
@@ -13,3 +13,201 @@
 
 </header>
 <!-- End Header -->
+
+
+
+<!-- Header -->
+<header class="template-header" id="case2" data-title="02) Bad: Very wide Logo and long Company Name">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo-wide.jpg')})|raw}}
+            {{widget('companyname', 'companyname', {"business": "Trinity College Dublin"})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+
+<!-- Header -->
+<header class="template-header" id="case3"
+    data-title="03) Bad: Banner Logo and Company Name">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo-banner.jpg')})|raw}}
+            {{widget('companyname', 'companyname', {"business": "NOAA PMEL"})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+
+<!-- Header -->
+<header class="template-header" id="case4"
+    data-title="04) Good: Single Square Logo">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo-square.svg')})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+<!-- Header -->
+<header class="template-header" id="case5"
+    data-title="05) Good: Single Wide Logo">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo-wide.jpg')})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+<!-- Header -->
+<header class="template-header" id="case6"
+    data-title="06) Good: Single Banner Size Logo">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo-banner.jpg')})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+<!-- Header -->
+<header class="template-header" id="case7"
+    data-title="07) Good: Company Name Only">
+
+    <div class="container-header">
+        <div class="company-details">
+            {{widget('companyname', 'companyname', {"business": "Trinity College Dublin"})|raw}}
+        </div>
+        <div class="header-navigation">
+            {{widget('extendednavigation', 'navigation', {"align":"right"})|raw}}
+        </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="switcher" class="switcher">
+    <button id="case-list-toggle">Case List</button>
+    <p id="currentTitle"></p>
+
+    <div class="case-list">
+        <hr />
+    </div>
+</div>
+
+<style>
+    .switcher {
+        position: fixed;
+        background-color: #ddd;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        padding: 10px;
+    }
+
+    .theme-header .container {
+        max-width: 1550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .switcher.open {
+        top: 0;
+        overflow: auto;
+    }
+
+    .case-list {
+        display: none;
+    }
+    .open .case-list {
+        display: block;
+    }
+</style>
+
+<script>
+    $('.template-header:not(:first)').hide();
+
+    $('#case-list-toggle').click(function() {
+        $('.switcher').toggleClass('open');
+    });
+
+    $.each($('.template-header'), function() {
+        var title = $(this).data("title");
+        var id = $(this).attr('id');
+        $('.case-list').append("<label><input type=\"radio\" name=\"case\" value=\""+id+"\" /> "+title+"</label>");
+
+    });
+
+
+
+    $(document).on("click", ".case-list input", function() {
+        $('.template-header').hide();
+        var openid = "#"+$(this).val();
+        $(openid).show();
+        var currentTitle = $(openid).data("title");
+        $("#currentTitle").text(currentTitle);
+
+        $('.switcher').toggleClass('open');
+    });
+
+
+</script
