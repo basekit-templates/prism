@@ -2,7 +2,7 @@
     "name":"Prism",
     "widgetVersion": 2,
     "thumbnail":"thumbnail.png",
-    "screenshot":"thumbnail.png",
+    "screenshot":"prism-screenshot.jpg",
     "templateType":"standard",
     "pageTypes": ["home"],
     "tags": {
