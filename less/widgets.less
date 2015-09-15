@@ -119,7 +119,7 @@
 // Feature Content Wrap
 // --------------------
 
-.content-wrap {
+.feature__content-wrap {
     width: 60%;
     margin: 0 auto;
     padding: 6px;
@@ -173,7 +173,7 @@
     }
 }
 
-.feature  .button {
+.feature__button {
 	display: inline-block;
 	margin: 20px 0;
 	border: @color-swatch1 solid 2px;
@@ -297,7 +297,7 @@
     	display: inline-block;
     	margin-bottom: 16px;
     	padding: 0px 11px;
-    	background-color: @contrast-color;
+    	// background-color: @contrast-color; V8
     }
 
 }
@@ -354,7 +354,7 @@
     bottom: 0;
     width: 100%;
     padding: 0;
-    background-color: @contrast-color;
+    // background-color: @contrast-color; V8
 }
 
 .responsiveslideshow__image-title,
@@ -407,9 +407,9 @@
 }
 
 // Prev, Next, Pause Buttons
-button.responsiveslideshow__previous-button,
-button.responsiveslideshow__next-button,
-button.pause-toggle {
+.responsiveslideshow__previous-button,
+.responsiveslideshow__next-button,
+.responsiveslideshow__pause-toggle {
 	width: 50px;
 	height: 50px;
 	padding: 0;
@@ -493,8 +493,8 @@ button.pause-toggle {
 }
 
 // Selected Item
-.slideshow__pagination-item.selected .slideshow__button {
-    background-color: @color-swatch7;
+.responsiveslideshow .selected .button {
+    background-color: @contrast-color;
     border-top: 1px solid @contrast-color;
 }
 
@@ -596,10 +596,11 @@ button,
 
 // Item Link
 .social-link {
+    color: @contrast-color;
 	font-size: 18px;
 	.transition(@duration:0.2s, @ease:ease-out); // Mixin > Other Mixins: Transitions
 	&:hover {
-		color: lighten(@color-swatch3,10%);
+		color: darken(@color-swatch2,10%);
 		text-decoration: none;
 	}
 }

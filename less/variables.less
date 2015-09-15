@@ -1,0 +1,224 @@
+// ------------------
+// Metadata Variables
+// ------------------
+
+
+
+
+// Variables
+// ----------------
+
+
+// colors
+@color__primary: @color-swatch2;
+@color__secondary: @color-swatch1;
+
+// site
+@color__body--background: @color-swatch1;
+@color__link--text: @color-swatch2;
+@color__companyname--text: @color-swatch2;
+
+// typography
+@color__h1--text: @color-swatch4;
+@color__h2--text: @color-swatch4;
+@color__h3--text: @color-swatch4;
+@color__h4--text: @color-swatch4;
+@color__p--text: @color-swatch4;
+
+// button
+@color__button--background: @color__primary;
+@color__button--background--hover: darken(@color__primary, 10%);
+@color__button--text: @color-swatch1;
+
+// header
+@color__header--background: @color-swatch1;
+
+// feature
+@color__feature-headline--text: @color-swatch1;
+@color__feature-strapline--text: @color-swatch1;
+@color__feature-content--background: fade(@color-swatch2,40%);
+@color__feature-button--text: @color-swatch1;
+@color__feature-button--border: @color-swatch1;
+@color__feature-button--background: transparent;
+@color__feature-button--background--hover: fade(@color-swatch1, 30%);
+
+// gallery
+@color__gallery-caption--background: @color-swatch2;
+@color__gallery-title--text: @color-swatch1;
+@color__gallery-description--text: @color-swatch1;
+
+// ecommerce
+@color__ecomproductslist-label--text: @color-swatch4;
+@color__ecomproductslist-product-item--background: transparent;
+@color__ecomproductslist-product-title--text: @color-swatch4;
+@color__ecomproduct-title--text: @color-swatch4;
+@color__ecomproduct-price--background: @color__primary;
+@color__ecomproduct-price--text: @color-swatch1;
+
+
+
+
+
+// -----------------------------
+// Template colour overrides
+// -----------------------------
+
+
+// Template Colour Variables
+// -----------------------------
+
+// Background
+@bg-color: @color__body--background; // Main BG
+@bg-color-alt: darken(@color__body--background,10%);
+
+// Contrast Colour
+@contrast-color: @color__primary;
+
+// Button BG Colour
+@button-color: @color__button--background;
+
+// Heading Text Colour (H1 - H4)
+@heading-color: @color__h1--text;
+
+// Paragraph Text Colour
+@paragraph-color: @color__p--text;
+
+// Nav Link Colour
+@nav-color: @color__navigation--text;
+
+// Spare Colour
+@spare-color: @color-swatch7;
+
+
+
+// Site
+// ---------
+
+body {
+    background-color: @color__body--background;
+}
+
+.company-link {
+    color: @color__companyname--text;
+}
+
+
+// Typography
+// ----------
+
+a {
+    color: @color__link--text;
+}
+
+h1 {
+    color: @color__h1--text;
+}
+
+h2 {
+    color: @color__h2--text;
+}
+
+h3 {
+    color: @color__h3--text;
+}
+
+h4 {
+    color: @color__h4--text;
+}
+
+p {
+    color: @color__p--text;
+}
+
+
+
+
+// Button
+// ----------
+
+button,
+.button,
+.blogpostlist .read-more.read-more {
+    background-color: @color__button--background;
+    color: @color__button--text;
+    &:hover {
+        background-color: @color__button--background--hover;
+    }
+}
+
+
+
+
+// Header
+// ---------------
+
+.template-header {
+    background-color: @color__header--background;
+}
+
+
+
+
+// Feature
+// ---------------
+
+.feature {
+    &__content-wrap.content-wrap {
+        background-color: @color__feature-content--background;
+    }
+    &__headline {
+        color: @color__feature-headline--text;
+    }
+    &__strapline {
+        color: @color__feature-strapline--text;
+    }
+    &__button.button {
+        background-color: @color__feature-button--background;
+        color: @color__feature-button--text;
+        border: @color-swatch1 solid 2px;
+        &:hover {
+            background-color: @color__feature-button--background--hover;
+        }
+    }
+}
+
+
+
+
+// Gallery
+// ---------------
+
+.gallery {
+    &__image-title.image-title {
+        color: @color__gallery-title--text;
+        background-color: @color__gallery-caption--background;
+    }
+    &__image-description.image-description {
+        color: @color__gallery-description--text;
+        background-color: @color__gallery-caption--background;
+    }
+}
+
+
+
+
+// Ecommerce
+// ---------------
+
+.ecomproductslist {
+    &__label.label {
+        color: @color__ecomproductslist-label--text;
+    }
+    &__product-item {
+        background-color: @color__ecomproductslist-product-item--background;
+    }
+    &__product-item-price.product-item-price {
+        color: @color__ecomproduct-price--text;
+        background-color: @color__ecomproduct-price--background;
+    }
+    &__product-item-title,
+    &__product-item-title a {
+        color: @color__ecomproductslist-product-title--text;
+    }
+}
+
