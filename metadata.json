@@ -178,8 +178,8 @@
             "color__p--text": "@font-swatch5-color"
         },
         "button": {
-            "color__button--background": "@color-swatch3",
-            "color__button--background--hover": "lighten(@color-swatch3,10%)",
+            "color__button--background": "@font-swatch7-background-color",
+            "color__button--background--hover": "@font-swatch7-background-color-hover",
             "color__button--text": "@font-swatch7-color"
         },
         "feature": {
@@ -190,6 +190,11 @@
             "color__feature-button--border": "@color-swatch1",
             "color__feature-button--background": "transparent",
             "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
+        },
+        "gallery": {
+            "color__gallery-caption--background": "@color-swatch2",
+            "color__gallery-title--text": "@color-swatch1",
+            "color__gallery-description--text": "@color-swatch1"
         },
         "ecommerce": {
             "color__ecomproductslist-label--text": "@font-swatch5-color",
