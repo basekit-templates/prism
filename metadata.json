@@ -176,12 +176,7 @@
             "color__h3--text": "@font-swatch4-color",
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color"
-        },
-        "button": {
-            "color__button--background": "@font-swatch7-background-color",
-            "color__button--background--hover": "@font-swatch7-background-color-hover",
-            "color__button--text": "@font-swatch7-color"
-        },
+        }
     }
 }
 
