@@ -130,7 +130,7 @@
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
-            "color": "@color-swatch1",
+            "color": "red",
             "letter-spacing": "1px",
             "background-color": "@color-swatch3",
             "background-color-hover": "lighten(@color-swatch3,10%)"
