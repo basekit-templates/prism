@@ -159,8 +159,8 @@
             "color": "@color-swatch4",
             "letter-spacing": "2px"
         }
-    }
-    // "styles": {
+    },
+    "styles": {
     //     "colors": {
     //         "color__primary": "@color-swatch2",
     //         "color__secondary": "@color-swatch1"
@@ -204,5 +204,5 @@
     //         "color__ecomproduct-price--background": "@color__primary",
     //         "color__ecomproduct-price--text": "@color-swatch1"
     //     }
-    // }
+    }
 }
