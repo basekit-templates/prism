@@ -178,18 +178,15 @@
             "color__p--text": "@font-swatch5-color"
         },
         "button": {
-            "color__button--background": "@color__primary",
-            "color__button--background--hover": "darken(@color__primary, 10%)",
-            "color__button--text": "@color-swatch1"
-        },
-        "header": {
-            "color__header--background": "@color-swatch1"
+            "color__button--background": "@font-swatch7-background-color",
+            "color__button--background--hover": "@font-swatch7-background-color-hover",
+            "color__button--text": "@font-swatch7-color"
         },
         "feature": {
             "color__feature-headline--text": "@font-swatch8-color",
             "color__feature-strapline--text": "@font-swatch9-color",
             "color__feature-content--background": "fade(@color-swatch2,40%)",
-            "color__feature-button--text": "@color-swatch1",
+            "color__feature-button--text": "@font-swatch7-color",
             "color__feature-button--border": "@color-swatch1",
             "color__feature-button--background": "transparent",
             "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
