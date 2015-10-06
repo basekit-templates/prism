@@ -177,11 +177,6 @@
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color"
         },
-        "button": {
-            "color__button--background": "@color-swatch3",
-            "color__button--background--hover": "lighten(@color-swatch3,10%)",
-            "color__button--text": "@font-swatch7-color"
-        },
         "feature": {
             "color__feature-headline--text": "@font-swatch8-color",
             "color__feature-strapline--text": "@font-swatch9-color",
