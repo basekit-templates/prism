@@ -164,6 +164,11 @@
         "colors": {
             "color__primary": "@color-swatch2",
             "color__secondary": "@color-swatch1"
+        },
+        "site": {
+            "color__body--background": "@color-swatch1",
+            "color__link--text": "@color-swatch2",
+            "color__companyname--text": "@font-swatch10-color"
         }
     }
 }
