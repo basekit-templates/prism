@@ -177,19 +177,10 @@
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color"
         },
-        "feature": {
-            "color__feature-headline--text": "@font-swatch8-color",
-            "color__feature-strapline--text": "@font-swatch9-color",
-            "color__feature-content--background": "fade(@color-swatch2,40%)",
-            "color__feature-button--text": "@font-swatch7-color",
-            "color__feature-button--border": "@color-swatch1",
-            "color__feature-button--background": "transparent",
-            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
-        },
-        "gallery": {
-            "color__gallery-caption--background": "@color-swatch2",
-            "color__gallery-title--text": "@color-swatch1",
-            "@color__gallery-description--text": "@color-swatch1"
+        "button": {
+            "color__button--background": "@color-swatch3",
+            "color__button--background--hover": "lighten(@color-swatch3,10%)",
+            "color__button--text": "@font-swatch7-color"
         },
         "ecommerce": {
             "color__ecomproductslist-label--text": "@font-swatch5-color",
