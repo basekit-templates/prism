@@ -177,6 +177,10 @@
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color"
         },
+        "navigation": {
+            "color__navigation--text": "@font-swatch6-color",
+            "color__navigation--text--hover": "lighten(@font-swatch6-color,10%)"
+        },
         "button": {
             "color__button--background": "@font-swatch7-background-color",
             "color__button--background--hover": "@font-swatch7-background-color-hover",
