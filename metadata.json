@@ -207,6 +207,9 @@
             "color__ecomproduct-title--text": "@font-swatch1-color",
             "color__ecomproduct-price--background": "@color__primary",
             "color__ecomproduct-price--text": "@color-swatch1"
+        },
+        "form": {
+            "color__form-legend--text": "@color-swatch4"
         }
     }
 }
