@@ -176,7 +176,7 @@
             "color__h3--text": "@font-swatch4-color",
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color",
-            "font__h1--font-family": "Arial"
+            "font__h1--font-family": "@font-swatch1-font-family"
         },
         "navigation": {
             "color__navigation--text": "@font-swatch6-color",
