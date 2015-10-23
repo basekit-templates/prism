@@ -168,7 +168,12 @@
         "site": {
             "color__body--background": "@color-swatch1",
             "color__link--text": "@color-swatch2",
-            "color__companyname--text": "@font-swatch10-color"
+            "color__companyname--text": "@font-swatch10-color",
+            "font__companyname--font-family": "@font__companyname--font-family",
+            "font__companyname--font-size": "@font__companyname--font-size",
+            "font__companyname--font-weight": "@font__companyname--font-weight",
+            "font__companyname--line-height": "@font__companyname--line-height",
+            "font__companyname--letter-spacing": "@font__companyname--letter-spacing"
         },
         "typography": {
             "color__h1--text": "@font-swatch1-color",
@@ -204,12 +209,24 @@
         },
         "navigation": {
             "color__navigation--text": "@font-swatch6-color",
-            "color__navigation--text--hover": "lighten(@font-swatch6-color,10%)"
+            "color__navigation--text--hover": "lighten(@font-swatch6-color,10%)",
+            "font__navigation--font-family": "@font__navigation--font-family",
+            "font__navigation--font-size": "@font__navigation--font-family",
+            "font__navigation--font-weight": "@font__navigation--font-weight",
+            "font__navigation--line-height": "@font__navigation--line-height",
+            "font__navigation--letter-spacing": "@font__navigation--letter-spacing",
+            "font__navigation--text-transform": "@font__navigation--text-transform"
         },
         "button": {
             "color__button--background": "@font-swatch7-background-color",
             "color__button--background--hover": "@font-swatch7-background-color-hover",
-            "color__button--text": "@font-swatch7-color"
+            "color__button--text": "@font-swatch7-color",
+            "font__button--font-family": "@font__button--font-size",
+            "font__button--font-size": "@font__button--font-size",
+            "font__button--font-weight": "@font__button--font-weight",
+            "font__button--line-height": "@font__button--line-height",
+            "font__button--letter-spacing": "@font__button--letter-spacing",
+            "font__button--text-transform": "@font__button--text-transform"
         },
         "feature": {
             "color__feature-headline--text": "@font-swatch8-color",
@@ -218,7 +235,17 @@
             "color__feature-button--text": "@font-swatch7-color",
             "color__feature-button--border": "@color-swatch1",
             "color__feature-button--background": "transparent",
-            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
+            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)",
+            "font__feature-headline--font-family": "@font__feature-headline--font-family",
+            "font__feature-headline--font-size": "@font__feature-headline--font-size",
+            "font__feature-headline--font-weight": "@font__feature-headline--font-weight",
+            "font__feature-headline--line-height": "@font__feature-headline--line-height",
+            "font__feature-headline--letter-spacing": "@font__feature-headline--letter-spacing",
+            "font__feature-strapline--font-family": "@font__feature-strapline--font-family",
+            "font__feature-strapline--font-size": "@font__feature-strapline--font-size",
+            "font__feature-strapline--font-weight": "@font__feature-strapline--font-weight",
+            "font__feature-strapline--line-height": "@font__feature-strapline--line-height",
+            "font__feature-strapline--letter-spacing": "@font-swatch9-letter-spacing"
         },
         "gallery": {
             "color__gallery-caption--background": "@color-swatch2",
