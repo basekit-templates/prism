@@ -234,7 +234,7 @@
             "color__feature-button--text": "@font-swatch7-color",
             "color__feature-button--border": "@color-swatch1",
             "color__feature-button--background": "transparent",
-            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)",
+            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
         },
         "gallery": {
             "color__gallery-caption--background": "@color-swatch2",
