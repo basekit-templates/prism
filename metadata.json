@@ -214,8 +214,7 @@
             "font__navigation--font-size": "@font-swatch6-font-size",
             "font__navigation--font-weight": "@font-swatch6-font-weight",
             "font__navigation--line-height": "@font-swatch6-line-height",
-            "font__navigation--letter-spacing": "@font-swatch6-letter-spacing",
-            "font__navigation--text-transform": "@font-swatch6-text-transform"
+            "font__navigation--letter-spacing": "@font-swatch6-letter-spacing"
         },
         "button": {
             "color__button--background": "@font-swatch7-background-color",
@@ -234,7 +233,17 @@
             "color__feature-button--text": "@font-swatch7-color",
             "color__feature-button--border": "@color-swatch1",
             "color__feature-button--background": "transparent",
-            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)"
+            "color__feature-button--background--hover": "fade(@color-swatch1, 30%)",
+            "font__feature-headline--font-family": "@font-swatch8-font-family",
+            "font__feature-headline--font-size": "@font-swatch8-font-size",
+            "font__feature-headline--font-weight": "@font-swatch8-font-weight",
+            "font__feature-headline--line-height": "@font-swatch8-line-height",
+            "font__feature-headline--letter-spacing": "@font-swatch8-letter-spacing",
+            "font__feature-strapline--font-family": "@font-swatch9-font-family",
+            "font__feature-strapline--font-size": "@font-swatch9-font-size",
+            "font__feature-strapline--font-weight": "@font-swatch9-font-weight",
+            "font__feature-strapline--line-height": "@font-swatch9-line-height",
+            "font__feature-strapline--letter-spacing": "@font-swatch9-letter-spacing"
         },
         "gallery": {
             "color__gallery-caption--background": "@color-swatch2",
