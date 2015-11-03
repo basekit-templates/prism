@@ -165,10 +165,6 @@
             "color__primary": "@color-swatch2",
             "color__secondary": "@color-swatch1"
         },
-        "fonts": {
-            "font__heading" : "@font-swatch1-font-family",
-            "font__body" : "@font-swatch5-font-family"
-        },
         "site": {
             "color__body--background": "@color-swatch1",
             "color__link--text": "@color-swatch2",
@@ -185,6 +181,8 @@
             "color__h3--text": "@font-swatch4-color",
             "color__h4--text": "@font-swatch4-color",
             "color__p--text": "@font-swatch5-color",
+            "font__heading" : "@font-swatch1-font-family",
+            "font__body" : "@font-swatch5-font-family",
             "font__h1--font-family" : "@font-swatch1-font-family",
             "font__h1--font-size" : "@font-swatch1-font-size",
             "font__h1--font-weight" : "@font-swatch1-font-weight",
