@@ -1,5 +1,6 @@
 {
     "name":"Prism",
+    "versionTenCompatible": 1,
     "widgetVersion": 2,
     "thumbnail":"thumbnail.png",
     "screenshot":"prism-screenshot.jpg",
